@@ -1,18 +1,22 @@
 body {
-	background-color:#EBEBEB;
+	background-color:none;
+}
+a, a:hover, a:active, a:visited { 
+	text-decoration:none; 
 }
 #header {
 	text-align:center;
-	font-family: 'vanitasregular';	
-	font-size:6em;
+	font-family: 'al_frescoregular';	
+	font-size:7em;
 	font-weight:normal;
 	margin-top:0;
 }
 #tagline {
 	text-align:center;
 	font-family: 'vanitasregular';	
-	font-size:2.1em;
-	margin-top:-2.3em;
+	font-size:1.5em;
+	margin-top:-5.3em;
+	font-style:italic;
 }
 .news {
 	font-family: 'telefonregular';
@@ -27,19 +31,20 @@ h4 {
 	margin-top:-.5em;
 	margin-bottom:2em;
 }
-ul {
+.nav ul {
 	list-style-type:none;
 	margin:0;
 	padding:0;
 }
-li {
+.nav ul li {
 	display:inline-block;
 	text-align:center;
+	margin:0;
 }
-a:link,a:visited {
+.nav ul li a:link,a:visited {
 	display:block;
-	width:9em;
-	padding:0.7em;
+	width:7em;
+	padding:0.6em;
 	font-weight:normal;
 	font-family:'telefonregular';
 	font-size:1.2em;
@@ -48,6 +53,21 @@ a:link,a:visited {
 	color:white;
 	text-transform: uppercase;
 }
-a:hover,a:active {
+.nav ul li a:hover,a:active {
 	background-color:grey;
+}
+.article {
+	font-family: 'suisse_bp_serifregular';
+}
+.article p a {
+	color:grey;
+}
+.footer {
+	background-color:lightgrey;
+	font-family:'vanitasregular';
+	color:white;
+	margin-top:2em;
+}
+span1 {
+	text-align:center;
 }
